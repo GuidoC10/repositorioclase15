@@ -1,0 +1,48 @@
+.envios {
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-areas: 
+    "costo radio"
+    "horarios pagos";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 3rem;
+
+    &__horarios {
+        grid-area: horarios;
+        text-align: center;
+    }
+
+    &__radio {
+        grid-area: radio;
+        text-align: center;
+    }
+
+    &__costo {
+        grid-area: costo;
+        text-align: center;
+    }
+
+    &__pagos {
+        grid-area: pagos;
+        text-align: center;
+    }
+
+    &__img {
+        padding-top: 2rem;
+    }
+}
+
+h3 {
+    font-weight: 700;
+}
+
+@include movilM {
+    
+    .envios {
+        font-size: 1rem;
+    }
+    
+    
+}

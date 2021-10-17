@@ -1,0 +1,28 @@
+.contactos {
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.fieldset {
+    border: hidden;
+    text-align: left;
+
+    &__contactosPadre {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &--hijos {
+            padding: 1rem;
+        }
+    }
+}
