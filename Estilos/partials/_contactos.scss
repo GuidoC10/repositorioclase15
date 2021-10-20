@@ -26,3 +26,13 @@
         }
     }
 }
+
+.mapa {
+    height: 20rem;
+    width: 28rem;
+
+    @include movilM {
+        height: 10rem;
+        width: 18rem;
+    }
+}

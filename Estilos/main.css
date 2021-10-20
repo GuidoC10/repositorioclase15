@@ -20,8 +20,8 @@ body {
 }
 
 .header {
-  margin-bottom: .5rem;
-  padding: 1rem;
+  margin-bottom: .3rem;
+  padding-top: .2rem;
   border-bottom: solid black 2px;
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 .footer {
-  margin-top: .5rem;
+  margin-top: .3rem;
   padding: 1rem;
   border-top: solid black 2px;
 }
@@ -452,6 +452,18 @@ h3 {
 
 .fieldset__contactosPadre--hijos {
   padding: 1rem;
+}
+
+.mapa {
+  height: 20rem;
+  width: 28rem;
+}
+
+@media screen and (max-width: 375px) {
+  .mapa {
+    height: 10rem;
+    width: 18rem;
+  }
 }
 
 .error {
