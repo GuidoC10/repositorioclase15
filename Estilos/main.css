@@ -197,6 +197,11 @@ body {
   }
 }
 
+.trabajos__imagen:hover {
+  width: 24rem;
+  height: 24rem;
+}
+
 .gridModelos {
   padding-top: 2.5rem;
   display: -ms-grid;
@@ -428,6 +433,7 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: auto;
 }
 
 .fieldset {

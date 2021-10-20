@@ -13,11 +13,17 @@
     align-content: space-around;
 
     &__imagen {
+        
         @extend .bordes;
 
         @include movilM {
             width: 10rem;
             height: 10rem;
+        }
+
+        &:hover {
+            width: 24rem;
+            height: 24rem;
         }
     }
 }
